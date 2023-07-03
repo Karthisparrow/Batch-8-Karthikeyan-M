@@ -1,0 +1,44 @@
+class tyre:
+    def no1(self,a):
+        if a==33:
+           print("Front-left : Untouched")
+        elif a>33:
+           print("Front-left : Deflate")
+        else:
+           print("Front-left : Inflate")
+class tyre1:
+    def no2(self,b):
+        if b==32:
+           print("Rear-left : Untouched")
+        elif b>32:
+           print("Rear-left : Deflate")
+        else:
+           print("Rear-left : Inflate")
+class tyre2:
+    def no3(self,c):
+        if c==32:
+           print("Rear-right : Untouched")
+        elif c>32:
+           print("Rear-right : Deflate")
+        else:
+           print("Rear-right : Inflate")
+class tyre3:
+    def no4(self,d):
+        if d==33:
+           print("Front-right : Untouched")
+        elif d>33:
+           print("Front-right : Deflate")
+        else:
+           print("Front-right : Inflate")
+tr=tyre()
+a=int(input())
+tr.no1(a)
+ty=tyre1()
+b=int(input())
+ty.no2(b)
+te=tyre2()
+c=int(input())
+te.no3(c)
+yr=tyre3()
+d=int(input())
+yr.no4(d)
